@@ -11,8 +11,8 @@ class User:
     def __repr__(self) -> str:
         return json.dumps(asdict(self))
 
-    __key__ ="users"
-    __filter__ ="name"
+    __key__ = "users"
+    __filter__ = "name"
 
 @dataclass
 class Floor:
@@ -22,8 +22,8 @@ class Floor:
     def __repr__(self) -> str:
         return json.dumps(asdict(self))
 
-    __key__ ="floors"
-    __filter__ ="name"
+    __key__ = "floors"
+    __filter__ = "name"
 
 @dataclass
 class Building:
@@ -37,8 +37,8 @@ class Building:
     def __repr__(self) -> str:
         return json.dumps(asdict(self))
 
-    __key__ ="buildings"
-    __filter__ ="name"
+    __key__ = "buildings"
+    __filter__ = "name"
 
 @dataclass
 class Meeting:
@@ -56,8 +56,8 @@ class Meeting:
     def __repr__(self) -> str:
         return json.dumps(asdict(self))
 
-    __key__ ="meetings"
-    __filter__ ="id"
+    __key__ = "meetings"
+    __filter__ = "id"
 
 @dataclass
 class DataStore:
