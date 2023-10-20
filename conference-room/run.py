@@ -23,7 +23,7 @@ if __name__ == "__main__":
         arg = input("> ")
         
         if arg in ["h", "help"]:
-            with open("help.txt") as file_help: print(file_help.read())
+            with open("README.md") as file_help: print(file_help.read())
         elif arg in ["d", "dump"]:
             print(ds)
         elif arg in ["e", "exit"]:
