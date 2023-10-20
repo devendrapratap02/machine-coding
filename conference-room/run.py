@@ -1,9 +1,9 @@
 from models import DataStore, User, Building, Floor, Meeting, read_data
 
-new_line = "\n"
-tab = "\t"
-space = " "
-colon = ":"
+new_line    = "\n"
+tab         = "\t"
+space       = " "
+colon       = ":"
 
 ds: DataStore = None
 
