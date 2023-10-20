@@ -1,0 +1,50 @@
+[[users]]
+    name = "dps"
+[[users]]
+    name = "anu"
+[[users]]
+    name = "aaloo"
+
+[[buildings]]
+    name = "alpha"
+    time_slot = [10, 20]
+    [[buildings.floors]]
+        name = "alpha_f1"
+        rooms = ["a11", "a12"]
+    [[buildings.floors]]
+        name = "alpha_f2"
+        rooms = ["a21", "a22", "a23"]  
+
+[[buildings]]
+    name = "beta"
+    time_slot = [12, 18]
+    [[buildings.floors]]
+        name = "beta_f1"
+        rooms = ["b11"]
+    [[buildings.floors]]
+        name = "beta_f2"
+        rooms = ["b21", "b22", "b23"]
+    [[buildings.floors]]
+        name = "beta_f3"
+        rooms = ["b31", "b32"]
+
+[[buildings]]
+    name = "camma"
+    time_slot = [9, 17]
+    [[buildings.floors]]
+        name = "camma_f1"
+        rooms = ["c11"]
+    [[buildings.floors]]
+        name = "camma_f2"
+        rooms = ["c21", "c22", "c23", "c24"]
+    [[buildings.floors]]
+        name = "camma_f3"
+        rooms = ["c31", "c32", "c33"]
+
+[[meetings]]
+    id = "m_dps_12_14"
+    user = "dps"
+    time_slot = [12, 14]
+    building = "alpha"
+    floor = "alpha_f2"
+    room = "a23"
