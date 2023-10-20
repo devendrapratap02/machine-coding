@@ -52,8 +52,8 @@ if __name__ == "__main__":
                 print(file_help.read())
         elif arg == "d" or arg == "dump":
             old_debug, debug = debug, True
-            echo(building_data, preety=True)
-            echo(meeting_data, preety=True)
+            echo(building_data, pretty=True)
+            echo(meeting_data, pretty=True)
             debug = old_debug
         elif arg == "e" or arg == "exit":
             break

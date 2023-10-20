@@ -27,5 +27,5 @@ Check availability
     return: list of room available
 
 Get availability suggestion
-    command: suggest time_slot ?{builing_name} ?{floor_name}
+    command: suggest time_slot ?{building_name} ?{floor_name}
     ? = optional
